@@ -20,6 +20,12 @@ section h1 {
   color: var(--acsentColor) !important;
   font-weight: 700;
 }
+
+.nav-dark {
+  background-color: var(--secondaryColor) !important;
+  z-index: 10;
+  transition: 0.3s;
+}
 /* End Navbar */
 
 /* Hero */
@@ -30,6 +36,7 @@ section h1 {
 #hero {
   color: #fff;
   min-height: 100vh;
+  padding-top: 75px;
 }
 
 #hero h1 {
@@ -130,7 +137,7 @@ hr {
 /* Sertifikat */
 #sertifikat {
   margin-top: -170px;
-  padding: 270px;
+  padding-top: 270px;
   padding-bottom: 80px;
   background-color: var(--secondaryColor);
 }
