@@ -58,10 +58,18 @@
   h1 {
     font-size: 2rem !important;
   }
+
+  .cv {
+    font-size: 0.88rem;
+  }
 }
 
 @media screen and (max-width: 350px) {
   #portofolio .col-md-12 {
     flex-direction: column;
+  }
+
+  .cv {
+    font-size: 0.6rem;
   }
 }
